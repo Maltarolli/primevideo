@@ -1,13 +1,20 @@
-import { Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 
 
 
 export const Home = () =>{
     return(
-        <View>
-            <Text>Ola mundo</Text>
+        <View style={StyleSheet.container}>
+            
             
         </View>
     );
 }
+
+const style = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+});
+
